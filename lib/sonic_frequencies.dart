@@ -36,6 +36,8 @@ class SonicFrequencies {
   /// ```dart
   /// // Generate a tone at 1000 Hz with half volume for 2 seconds
   /// generateTone(frequency: 1000.0, volume: 0.5, duration: 2000);
+  ///
+  ///
   /// ```
   Future<bool> generateTone({
     double frequency = 440.0,
@@ -62,6 +64,8 @@ class SonicFrequencies {
   /// ```dart
   /// // Generate a sweep from 500 Hz to 1500 Hz over 5 seconds with 70% volume
   /// generateSweep(startFrequency: 500.0, endFrequency: 1500.0, duration: 5000, volume: 0.7);
+  ///
+  ///
   /// ```
   Future<bool> generateSweep({
     double startFrequency = 200.0,
@@ -85,6 +89,8 @@ class SonicFrequencies {
   /// ```dart
   /// // Stop the currently playing tone or sweep
   /// stopTone();
+  ///
+  ///
   /// ```
   Future<bool> stopTone() {
     return SonicFrequenciesPlatform.instance.stopTone();
