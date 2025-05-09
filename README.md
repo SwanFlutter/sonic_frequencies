@@ -10,6 +10,10 @@ A Flutter plugin for generating sounds at different frequencies. This plugin can
 - Predefined frequencies for repelling various insects
 - Works on both Android and iOS
 
+<img src="https://github.com/user-attachments/assets/00ff91a3-9965-4d8f-bb11-79ea48ac6fbf" alt="Capture7" width="300">
+
+
+
 ## Installation
 
 Add this to your package's `pubspec.yaml` file:
